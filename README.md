@@ -6,9 +6,9 @@ cnn.py: simple convolutional neural network to read Raman spectra.
 
 Requires:
 
-  X_reference.npy: reference array with spectre signal coming directly from laboratory isolates         (downloaded from my database).
+  X_reference.npy: reference array with spectre signal coming directly from laboratory isolates         (downloaded from https://github.com/csho33/bacteria-ID).
   
-  y_reference.npy: labels (0-29) associated to the samples in X_reference.npy                           (downloaded from my database).
+  y_reference.npy: labels (0-29) associated to the samples in X_reference.npy                           (downloaded from https://github.com/csho33/bacteria-ID).
   
 .  
 
@@ -30,9 +30,9 @@ Requires:
   
   y_test_split.npy: numpy array with 10% of the previously shuffled y_reference.npy                     (created after running cnn.py).
   
-  X_2019clinical.npy: numpy array with clinical spectra coming from 30 patients                         (downloaded from my database).
+  X_2019clinical.npy: numpy array with clinical spectra coming from 30 patients                         (downloaded from https://github.com/csho33/bacteria-ID).
   
-  y_2019clinical.npy: numpy array with labels (0,2,3,5,6) associated to clinical samples                (downloaded from my database).
+  y_2019clinical.npy: numpy array with labels (0,2,3,5,6) associated to clinical samples                (downloaded from https://github.com/csho33/bacteria-ID).
   
   simple_raman_cnn.pth: trained model                                                                   (created after running training.py).
 
