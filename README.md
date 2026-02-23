@@ -1,3 +1,7 @@
+#Every needed file (even the ones created during the running) can be downloaded from the database in case something goes wrong during the execution of the scripts.
+
+.
+
 cnn.py: simple convolutional neural network to read Raman spectra.
 
 Requires:
