@@ -1,4 +1,4 @@
-#Every needed file (even the ones created during the running) can be downloaded from the database in case something goes wrong during the execution of the scripts.
+#Data files are compressed in the "data" zip , even those that are a result of the execution of the scripts, in case any error happens while you are running them. 
 
 .
 
